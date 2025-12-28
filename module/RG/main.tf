@@ -4,4 +4,3 @@ resource "azurerm_resource_group" "rg1" {
   location = each.value.location
 }
 
-variable "rg" {}

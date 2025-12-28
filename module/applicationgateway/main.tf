@@ -55,8 +55,3 @@ resource "azurerm_application_gateway" "AppGw" {
 }
 
 
-variable "appGw" {}
-variable "rgcall" {}
-variable "subnetcall" {}
-variable "pipcall" {}
-

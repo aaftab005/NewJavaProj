@@ -6,5 +6,4 @@ resource "azurerm_virtual_network" "vnet"{
      address_space = each.value.adddrsspace
 }
 
-variable "vnet" {}
-variable "vnetcall"{}
+

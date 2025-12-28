@@ -7,5 +7,3 @@ resource "azurerm_storage_account" "Storageaccnt" {
       account_replication_type = each.value.acctype
 }
 
-variable "sa" {}
-variable "gg" {}

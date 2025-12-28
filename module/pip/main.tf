@@ -6,5 +6,4 @@ resource "azurerm_public_ip" "pip" {
   allocation_method = each.value.alloc_method
   }
 
-  variable "pip" {}
-  variable "rgcall" {}
+ 

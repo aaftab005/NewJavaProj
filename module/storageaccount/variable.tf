@@ -1,0 +1,2 @@
+variable "sa" {}
+variable "gg" {}

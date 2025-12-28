@@ -6,5 +6,3 @@ resource "azurerm_subnet" "subnet" {
   address_prefixes = each.value.adrspac
 }
 
-variable "subnet" {}
-variable "subnetcall" {}
