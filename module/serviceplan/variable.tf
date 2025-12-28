@@ -1,0 +1,2 @@
+variable "srvplan" {}
+variable "srvplancall" {}
