@@ -1,4 +1,4 @@
-subscription_id = ""
+subscription_id = "98473d5b-c639-404e-9bf2-91559fe65ff8"
 
 rg = {
   rg1 = {
