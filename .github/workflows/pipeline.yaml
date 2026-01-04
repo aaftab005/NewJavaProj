@@ -75,18 +75,18 @@ jobs:
         cli_config_credentials_token: ${{ secrets.AZURE_CLIENT_SECRET }}
         
 
-    - name: Load TFLint Config
-      # You may pin to the exact commit or the version.
-      # uses: terraform-linters/tflint-load-config-action@5b0f6d9b68043d15c83a05d7a6dc831da411b5dd
-      uses: terraform-linters/tflint-load-config-action@v2.0.0
-      with:
-        # The repository from which the configuration will be copied
-        source-repo: https://github.com/aaftab005/NewJavaProj/
-        # Path to the configuration file in the remote repository
-        source-path: .tflint.hcl
-        # Ref or branch of the remote repository to target
-        source-ref: master
-        # Path where configuration file will be written locally. (Default $HOME/.tflint.hcl)
+    # - name: Load TFLint Config
+    #   # You may pin to the exact commit or the version.
+    #   # uses: terraform-linters/tflint-load-config-action@5b0f6d9b68043d15c83a05d7a6dc831da411b5dd
+    #   uses: terraform-linters/tflint-load-config-action@v2.0.0
+    #   with:
+    #     # The repository from which the configuration will be copied
+    #     source-repo: https://github.com/aaftab005/NewJavaProj/
+    #     # Path to the configuration file in the remote repository
+    #     source-path: .tflint.hcl
+    #     # Ref or branch of the remote repository to target
+    #     source-ref: master
+    #     # Path where configuration file will be written locally. (Default $HOME/.tflint.hcl)
   
               
     # Initialize a new or existing Terraform working directory by creating initial files, loading any remote state, downloading modules, etc.
