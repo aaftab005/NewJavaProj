@@ -56,11 +56,12 @@ jobs:
 
     # Checks that all Terraform configuration files adhere to a canonical format
     - name: Terraform Format
-      run: terraform fmt 
+      run: terraform fmt
+      working-directory: ./mainfile 
     
     - name: Terraform Plan
       run: terraform plan
-      working-directory: 
+      working-directory: ./mainfile 
 
     # # Perform a security scan of the terraform code using checkov
     # - name: Run Checkov action
